@@ -1,0 +1,11 @@
+site_name: Shirley Ferreira
+site_url: https://mydomain.org/mysite/Página%20Inicial/
+theme:
+  name: lux
+  favicon: assets/img/favicon.ico
+  nav: 
+    - home: index.md
+    - content: ./Home
+    - about me: ./Sobre
+        
+
