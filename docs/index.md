@@ -1,8 +1,9 @@
 # Página Inicial
 
-Este repositório portfólio é um local para registrar meu aprenziados durante meu estágio na Stefanini Brasil. Você pode encontrar mais informações sobre mim na sessão Sobre Mim.
+Este repositório portfólio é um local para registrar meu aprendizados durante meu estágio na Stefanini Brasil. Você pode encontrar mais informações sobre mim na sessão Sobre Mim.
 
 ___
+
 ## Sobre mim
 Olá,
 
@@ -23,6 +24,7 @@ ___
 ___
 ## Estudos
 
+Durante meu estágio na Stefanini estou tendo muitas oportunidades para explorar diversas tecnologias e conceitos, os quais podem ser encontrados resumos sobre na sessão [Estudos](./estudos/)
 
 ___
 ## Projetos
