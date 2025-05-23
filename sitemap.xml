@@ -2,30 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-05-21</lastmod>
+         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/estudos/angular/</loc>
-         <lastmod>2025-05-21</lastmod>
+         <loc>https://mydomain.org/mysite/estudos/</loc>
+         <lastmod>2025-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/estudos/Git%20e%20Github/Git_e_Github/</loc>
+         <lastmod>2025-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/estudos/angular/angular/</loc>
+         <lastmod>2025-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/estudos/conceitos/</loc>
+         <lastmod>2025-05-23</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/estudos/conceitos/Api_Rest/</loc>
+         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/estudos/conceitos/solid/</loc>
-         <lastmod>2025-05-21</lastmod>
-    </url>
-    <url>
-         <loc>https://mydomain.org/mysite/estudos/git/git/</loc>
-         <lastmod>2025-05-21</lastmod>
+         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/estudos/quarkus/quarkus/</loc>
-         <lastmod>2025-05-21</lastmod>
+         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/estudos/springboot/springboot/</loc>
-         <lastmod>2025-05-21</lastmod>
+         <lastmod>2025-05-23</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/estudos/testes/testes/</loc>
-         <lastmod>2025-05-21</lastmod>
+         <lastmod>2025-05-23</lastmod>
     </url>
 </urlset>

@@ -42,25 +42,43 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../angular/" class="dropdown-item">Angular</a>
+    <a href="../../" class="dropdown-item">Estudos</a>
 </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Git e Github</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../Git%20e%20Github/Git_e_Github/" class="dropdown-item">Git e Github</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Angular</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../angular/angular/" class="dropdown-item">Angular</a>
+</li>
+    </ul>
+  </li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Conceitos</a>
     <ul class="dropdown-menu">
             
 <li>
-    <a href="./" class="dropdown-item active" aria-current="page">SOLID</a>
+    <a href="../" class="dropdown-item">Index</a>
 </li>
-    </ul>
-  </li>
-                                    
-  <li class="dropdown-submenu">
-    <a href="#" class="dropdown-item">Git</a>
-    <ul class="dropdown-menu">
             
 <li>
-    <a href="../../git/git/" class="dropdown-item">Git</a>
+    <a href="../Api_Rest/" class="dropdown-item">Api Rest</a>
+</li>
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">SOLID</a>
 </li>
     </ul>
   </li>
@@ -80,7 +98,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../springboot/springboot/" class="dropdown-item">Springboot</a>
+    <a href="../../springboot/springboot/" class="dropdown-item">SpringBoot</a>
 </li>
     </ul>
   </li>
@@ -105,12 +123,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../angular/" class="nav-link">
+                                <a rel="prev" href="../Api_Rest/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../../git/git/" class="nav-link">
+                                <a rel="next" href="../../quarkus/quarkus/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -142,6 +160,18 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-bs-level="2"><a href="#3-liskov-substitution-principle-lsp-principio-da-substituicao-de-liskov" class="nav-link">3. Liskov Substitution Principle (LSP) – Princípio da Substituição de Liskov</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#4-interface-segregation-principle-isp-principio-da-segregacao-de-interface" class="nav-link">4. Interface Segregation Principle (ISP) – Princípio da Segregação de Interface</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#5-dependency-inversion-principle-dip-principio-da-inversao-de-dependencia" class="nav-link">5. Dependency Inversion Principle (DIP) – Princípio da Inversão de Dependência</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -151,10 +181,21 @@
 
 <h1 id="solid">SOLID</h1>
 <p>Os princípios SOLID são um conjunto de boas práticas para tornar o código mais limpo, organizado, fácil de entender e manter. Eles ajudam a evitar código desorganizado e difícil de modificar ou expandir no posteriormente.</p>
+<hr />
 <h2 id="1-single-responsibility-principle-principio-da-responsabilidade-unica">1. Single Responsibility Principle – Princípio da Responsabilidade Única</h2>
 <p>Cada classe deve ter apenas uma responsabilidade, ou seja, cada classe deve fazer uma única coisa no sistema.</p>
+<hr />
 <h2 id="2-open-closed-principle-principio-aberto-fechado">2. Open-Closed Principle – Princípio Aberto-Fechado</h2>
-<p>O código deve ser aberto para extensão, mas fechado para modificação. Podem ser adicionadas novas funcionalidades sem precisar alterar o código que já existe.</p></div>
+<p>O código deve ser aberto para extensão, mas fechado para modificação. Podem ser adicionadas novas funcionalidades sem precisar alterar o código que já existe.</p>
+<hr />
+<h2 id="3-liskov-substitution-principle-lsp-principio-da-substituicao-de-liskov">3. Liskov Substitution Principle (LSP) – Princípio da Substituição de Liskov</h2>
+<p>Você deve poder usar algo de uma classe filha (que herda algo) no lugar da classe pai (base) sem quebrar o funcionamento do programa.</p>
+<hr />
+<h2 id="4-interface-segregation-principle-isp-principio-da-segregacao-de-interface">4. Interface Segregation Principle (ISP) – Princípio da Segregação de Interface</h2>
+<p>Evitar criar interfaces grandes e genéricas. É melhor dividir as interfaces em partes menores e mais específicas, para que as classes implementem apenas os métodos que realmente utilizam.</p>
+<hr />
+<h2 id="5-dependency-inversion-principle-dip-principio-da-inversao-de-dependencia">5. Dependency Inversion Principle (DIP) – Princípio da Inversão de Dependência</h2>
+<p>Para o código continuar flexivel e fácil de testar as classes devem depender de abstrações (interfaces), e não de implementações concretas (classes específicas). Como por exemplo uma classe pedido não criar um metodo pagamento cartão, e sim depender de uma interface pagamento (assim poderiamos mudar o metodo de pagamento por exemplo).</p></div>
             </div>
         </div>
 
